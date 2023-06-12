@@ -12,7 +12,7 @@ public class ProductArray {
 
         // right product
         int rightProduct = 1; // in case of last element, would need to multiply by 1
-        for (int i = nums.length; i >=0 ; i--) {
+        for (int i = nums.length - 1; i >=0 ; i--) {
             answer[i] *= rightProduct;
             rightProduct *= nums[i];
         }
