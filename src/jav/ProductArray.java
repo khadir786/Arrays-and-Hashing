@@ -1,4 +1,4 @@
-package java;
+package jav;
 public class ProductArray {
     public int[] productExceptSelf(int[] nums) {
         int[] answer = new int[nums.length];

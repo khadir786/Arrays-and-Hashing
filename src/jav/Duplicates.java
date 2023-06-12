@@ -1,4 +1,4 @@
-package java;
+package jav;
 import java.util.Arrays;
 
 public class Duplicates {

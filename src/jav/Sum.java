@@ -1,4 +1,4 @@
-package java;
+package jav;
 import java.util.HashMap;
 import java.util.Map;
 public class Sum{
