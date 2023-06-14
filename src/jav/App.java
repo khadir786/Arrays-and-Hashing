@@ -3,10 +3,10 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        ProductArray productArray = new ProductArray();
-        int[] nums = {1,2,3,4};
+        LongCons lc = new LongCons();
+        int[] nums = {100,4,200,1,3,2};
 
-        int[] result = productArray.productExceptSelf(nums);
-        System.out.println(Arrays.toString(result));
+        int result = lc.longestConsecutive(nums);
+        System.out.println((result));
     }
 }
